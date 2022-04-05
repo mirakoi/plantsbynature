@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+
+    <link rel="icon" type="image/x-icon" href="../Images/logo-flower.svg">
+
+
+    <link rel="stylesheet" href="../Styles/reset.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../Styles/contact.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aleo&family=Josefin+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/341276132c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="../Images/logo.svg" alt="logo" />
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand" href="#">Plants</a> -->
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item text-uppercase">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="shop.html"
+                  >Shop</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-uppercase" href="about.html"
+                  >About us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-uppercase" href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- END OF NAVBAR -->
+
+    <!-- CONTACT US - TITLE -->
+
+    <section id="contact" class="my-3">
+      <div class="container">
+        <div class="row">
+          <div class="title my-5">
+            <h2 class="text-uppercase display-3 text-dark py-2">contact us</h2>
+            <p class="lead">
+              If you have any questions or need further information, please feel
+              free to contact us at plants by nature.
+            </p>
+
+            <div class="title-underline"></div>
+          </div>
+        </div>
+
+        <!-- CONTACT US - TITLE -  END -->
+
+        <!-- GOOGLE MAPS -->
+        <div class="row pb-5 gx-5">
+          <div class="col-12 pb-5">
+            <div id="map-container-google" class="z-depth-1-half map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52769.72612189273!2d22.112341430550153!3d65.58671684026457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467f6314d2e8b867%3A0x4034506de8c8620!2zTHVsZcOl!5e0!3m2!1ssv!2sse!4v1648542400126!5m2!1ssv!2sse"
+                width="100%"
+                height="600"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- GOOGLE MAPS END -->
+
+          <form class="col-lg-12">
+            <div class="form-group">
+              <label for="email">EMAIL</label>
+              <input
+                id="email"
+                class="form-control"
+                type="email"
+                aria-describedby="emailHint"
+                placeholder="Enter-email"
+              />
+            </div>
+            <div class="form-group mt-3">
+              <label for="name">NAME</label>
+              <input
+                id="name"
+                class="form-control"
+                type="text"
+                placeholder="Enter name"
+              />
+            </div>
+            <div class="form-group mt-3">
+              <label for="message">MESSAGE</label>
+              <textarea
+                id="message"
+                class="form-control"
+                placeholder="Enter message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button
+              type="submit"
+              class="btn btn-lg btn-outline-success text-uppercase mt-5"
+            >
+              submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="pt-2 footer-color">
+      <div class="container text-white text-center py-4">
+        <div class="col text-center">
+          <a href="../index.html"
+            ><img
+              src="/images/logo-flower.svg"
+              alt=""
+              height="40px"
+              width="40px"
+              class="img-flower"
+          /></a>
+          <p class="lead text-uppercase pt-3">
+            join our newsletter for uppdates and offers
+          </p>
+
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+              <form action="" class="form-inline text-center">
+                <div class="input-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter your email"
+                  />
+                  <span class="input-group-btn">
+                    <button class="btn btn-outline-dark" type="submit">
+                      Subscribe Now
+                    </button>
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="py-3">
+            <a href="#"
+              ><i class="fa-brands fa-facebook fa-2x text-dark mx-3"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-instagram-square fa-2x text-dark mx-3"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-pinterest fa-2x text-dark mx-3"></i
+            ></a>
+            <a href="#"
+              ><i class="fa-brands fa-linkedin fa-2x text-dark mx-3"></i
+            ></a>
+          </div>
+          <p class="text-footer pt-3 text-white">Tel +123 3455 6777</p>
+        </div>
+      </div>
+    </footer>
+
+    <section id="footer" class="">
+      <ul
+        class="nav text-center justify-content-center flex-column flex-md-row col py-md-3"
+      >
+        <li class="nav-item">
+          <a href="../index.html" class="nav-link text-white py-2">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link text-white py-2">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a href="shop.html" class="nav-link text-white py-2">SHOP</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-white py-2">CONTACT</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- END OF FOOTER -->
+
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
