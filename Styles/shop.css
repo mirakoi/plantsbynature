@@ -155,10 +155,26 @@ h1, h2, h3, h4, h5, h6{
     margin: 25px;
 }
 
-/* NAVBAR */
+/* FOOTER AND NAVBAR - LOGO */
 
-.navbar {
-    background-color: #778a35 !important;
+/* LOGO */
+
+.logo {
+    max-width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: wheat;
+  }
+  
+  /* NAVBAR */
+  
+  
+  .navbar {
+    background-color: #acb392 !important;
   }
   
   .nav-link {
@@ -166,34 +182,32 @@ h1, h2, h3, h4, h5, h6{
   }
   
   .nav-link:hover {
-    color: #FAE6D0 !important;
+    color: #fae6d0 !important;
   }
   
   li {
     font-size: 22px;
   }
-
-.footer-section {
-    background-color: #d1e2c4;
-  }
-  
-  .fa-brands:hover {
-    color: rgb(42, 75, 11) !important;
-  }
   
   /* FOOTER */
-
+  
   .text-footer {
     font-size: 22px !important;
     font-weight: bold;
   }
   
   .footer-color {
-    background-color: #778a35;
+    background-color: #acb392 !important;
   }
   
   #footer {
-    background-color: #d1e2c4 !important;
+    background-color: #778a35 !important;
   }
+  
+  .fa-brands:hover {
+    color: #fae6d0 !important;
+  }
+  
+  
   
   

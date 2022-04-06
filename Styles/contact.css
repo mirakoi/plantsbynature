@@ -16,57 +16,57 @@
     font-family: "Aleo", serif;
   } 
 
-  /* FOOTER AND NAVBAR - LOGO */
+ /* FOOTER AND NAVBAR - LOGO */
 
 /* LOGO */
 
 .logo {
-    max-width: 50%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    color: wheat;
-  }
-  
-  /* NAVBAR */
-  
-  
-  .navbar {
-    background-color: #778a35 !important;
-  }
-  
-  .nav-link {
-    font-weight: 500 !important;
-  }
-  
-  .nav-link:hover {
-    color: #fae6d0 !important;
-  }
-  
-  li {
-    font-size: 22px;
-  }
-  
-  /* FOOTER */
-  
-  .text-footer {
-    font-size: 22px !important;
-    font-weight: bold;
-  }
-  
-  .footer-color {
-    background-color: #778a35 !important;
-  }
-  
-  #footer {
-    background-color: #d1e2c4 !important;
-  }
-  
-  .fa-brands:hover {
-    color: #fae6d0 !important;
-  }
-  
- 
+  max-width: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: wheat;
+}
+
+/* NAVBAR */
+
+
+.navbar {
+  background-color: #acb392 !important;
+}
+
+.nav-link {
+  font-weight: 500 !important;
+}
+
+.nav-link:hover {
+  color: #fae6d0 !important;
+}
+
+li {
+  font-size: 22px;
+}
+
+/* FOOTER */
+
+.text-footer {
+  font-size: 22px !important;
+  font-weight: bold;
+}
+
+.footer-color {
+  background-color: #acb392 !important;
+}
+
+#footer {
+  background-color: #778a35 !important;
+}
+
+.fa-brands:hover {
+  color: #fae6d0 !important;
+}
+
+
